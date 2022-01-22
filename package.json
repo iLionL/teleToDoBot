@@ -1,0 +1,44 @@
+{
+    "name": "bot",
+    "version": "0.3.1",
+    "private": true,
+    "description": "bot",
+    "files": [
+        "dist/**/*"
+    ],
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rimraf dist && tsc",
+        "start": "nodemon",
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint \"./src/**\"",
+        "lint:fix": "npm run lint -- --fix",
+        "prepare": "npm run build"
+    },
+    "devDependencies": {
+        "@types/react": "16.9.34",
+        "@typescript-eslint/eslint-plugin": "2.29.0",
+        "@typescript-eslint/parser": "2.29.0",
+        "dotenv": "^8.2.0",
+        "eslint": "6.8.0",
+        "eslint-config-prettier": "6.15.0",
+        "eslint-plugin-import": "2.20.2",
+        "eslint-plugin-jest": "23.8.2",
+        "eslint-plugin-prettier": "3.1.3",
+        "eslint-plugin-react": "7.22.0",
+        "eslint-plugin-react-hooks": "3.0.0",
+        "nodemon": "^2.0.3",
+        "prettier": "2.0.5",
+        "rimraf": "3.0.2",
+        "typescript": "4.4.3"
+    },
+    "dependencies": {
+        "@urban-bot/core": "^0.3.1",
+        "@urban-bot/telegram": "^0.3.1",
+        "node-telegram-bot-api": "^0.56.0",
+        "react": "^16.14.0"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    }
+}
