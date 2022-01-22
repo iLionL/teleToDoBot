@@ -9,7 +9,7 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "rimraf dist && tsc",
-        "start": "nodemon",
+        "start": "npm i && nodemon",
         "typecheck": "tsc --noEmit",
         "lint": "eslint \"./src/**\"",
         "lint:fix": "npm run lint -- --fix",
