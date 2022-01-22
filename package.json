@@ -8,12 +8,7 @@
     ],
     "main": "dist/index.js",
     "scripts": {
-       // "build": "rimraf dist && tsc",
         "start": "npm i && nodemon",
-       // "typecheck": "tsc --noEmit",
-       // "lint": "eslint \"./src/**\"",
-       // "lint:fix": "npm run lint -- --fix",
-       // "prepare": "npm run build"//
     },
     "devDependencies": {
         "@types/react": "16.9.34",
