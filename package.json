@@ -72,7 +72,7 @@
             "src"
         ],
         "ext": "js,jsx,json",
-        "exec": "webpack --mode=production && node ./dist/index.js"
+        "exec": "webpack --mode=development && node ./dist/index.js"
     },
     "jest": {
         "testEnvironment": "node",
