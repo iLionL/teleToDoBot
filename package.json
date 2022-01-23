@@ -3,10 +3,8 @@
     "version": "0.3.1",
     "private": true,
     "description": "bot",
-    "files": [
-        "dist/**/*"
-    ],
-    "main": "dist/index.js",
+    
+    "main": "index.js",
     "scripts": {
        "int": "npm i",
        "start": "nodemon",
@@ -36,8 +34,6 @@
         "@urban-bot/telegram": "^0.3.1",
         "node-telegram-bot-api": "^0.56.0",
         "react": "^16.14.0",
-        "nodemon": "^2.0.15"
-
     },
     "engines": {
         "node": ">=12.0.0"
