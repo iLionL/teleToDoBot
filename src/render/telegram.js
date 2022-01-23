@@ -7,7 +7,6 @@ import { App } from '../App';
 dotenv.config();
 
 const { TELEGRAM_TOKEN, PORT } = process.env;
-console.log(TELEGRAM_TOKEN, '!assad');
 
 const isDevelopment = process.env.NODE_ENV === 'development';
 
