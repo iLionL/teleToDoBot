@@ -1,9 +1,7 @@
 {
     "name": "bot",
     "version": "0.3.1",
-    "private": true,
     "description": "bot",
-    
     "main": "index.js",
     "scripts": {
        "int": "npm i",
