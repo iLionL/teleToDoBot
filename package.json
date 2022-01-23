@@ -9,7 +9,7 @@
     "scripts": {
         "build": "webpack",
         "dev": "nodemon",
-        "heroku-postbuild": "webpack -p",
+        "heroku-postbuild": "webpack --mode=production",
         "lint": "eslint \"./src\" --ext \".js,.jsx\"",
         "lint:fix": "npm run lint -- --fix",
         "start": "node dist/index.js",
