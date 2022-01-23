@@ -1,1 +1,1 @@
-worker : npm i node-telegram-bot-api nodemon && npm run dev
+worker : npx i && npm run dev
