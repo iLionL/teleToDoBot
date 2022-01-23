@@ -9,11 +9,9 @@
     "scripts": {
         "build": "webpack",
         "dev": "nodemon",
-        "heroku-postbuild": "webpack --mode=production",
         "lint": "eslint \"./src\" --ext \".js,.jsx\"",
         "lint:fix": "npm run lint -- --fix",
-        "start": "node dist/index.js",
-        "start-tunnel": "ngrok http 8080",
+        "start": "webpack --mode=production && node dist/index.js",
         "test": "jest"
     },
     "dependencies": {
