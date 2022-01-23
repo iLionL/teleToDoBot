@@ -4,7 +4,7 @@
     "description": "bot",
     "main": "index.js",
     "scripts": {
-        "start": "npm i && npm i nodemon && npx nodemon"
+        "start": "npm i && npx nodemon"
     },
     "devDependencies": {
         "@types/react": "16.9.34",
