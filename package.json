@@ -8,7 +8,10 @@
     ],
     "main": "dist/index.js",
     "scripts": {
-        "start": "npm i && nodemon",
+       "start": "npm i && nodemon",
+       "typecheck": "tsc --noEmit",
+       "lint": "eslint \"./src/**\"",
+       "lint:fix": "npm run lint -- --fix"
     },
     "devDependencies": {
         "@types/react": "16.9.34",
