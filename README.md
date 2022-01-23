@@ -1,1 +1,0 @@
-First bot for tg
