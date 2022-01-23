@@ -1,5 +1,0 @@
-{
-    "watch": ["src"],
-    "ext": "ts,tsx,js,jsx",
-    "exec": "npx tsc && node --inspect ./dist/index.js"
-}
