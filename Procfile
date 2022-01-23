@@ -1,1 +1,1 @@
-worker :  npm i && npm run dev
+worker :  npm i && ng build --dev && npm run dev
