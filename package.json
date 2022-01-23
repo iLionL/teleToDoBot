@@ -4,7 +4,6 @@
     "description": "bot",
     "main": "index.js",
     "scripts": {
-       "int": "npm i",
        "start": "nodemon",
        "typecheck": "tsc --noEmit",
        "lint": "eslint \"./src/**\"",
