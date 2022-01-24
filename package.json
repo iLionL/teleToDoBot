@@ -71,7 +71,8 @@
         "watch": [
             "src"
         ],
-        "ext": "js,jsx,json"
+        "ext": "js,jsx,json",
+        "exec": "node --inspect ./dist/index.js"
     },
     "jest": {
         "testEnvironment": "node",
